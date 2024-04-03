@@ -2,3 +2,6 @@
 build
 managed_components
 *.old
+moc_*
+build-*
+*.pro.user
