@@ -1,10 +1,6 @@
 #include <stdint.h>
-#include "esp_log.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "tinyusb.h"
-#include "tusb_cdc_acm.h"
-#include "sdkconfig.h"
+#include <stddef.h>
+#include <sys/types.h>
 #include "pwm.h"
 #include "relay.h"
 
